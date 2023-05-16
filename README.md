@@ -1,2 +1,2 @@
-# Desafio_C
-Diversos Códigos com Desafios em C.
+# Desafio em C
+Diversos Códigos com Desafios em C com níveis variados.
