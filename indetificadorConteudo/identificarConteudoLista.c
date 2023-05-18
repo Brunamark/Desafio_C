@@ -10,7 +10,7 @@ void trocar(int *a, int *b) {
 void quickSort(int array[], int inicio, int fim) {
   int pivo = array[(inicio + fim) / 2]; // Escolhe o elemento do meio como pivô
 
-  for (int i = inicio + 1; i <= fim; i++) {
+  for (int i = inicio+1; i <= fim; i++) {
     if (pivo < array[i]) {
       if (array[i - 1] > array[i]) {
         trocar(&array[i - 1], &array[i]);
